@@ -459,7 +459,7 @@ if (!isGroupAdmins) return diablobotwhatsapp.reply(`sorry anda sepertinya bukan 
  diablobotwhatsapp.reply(util.format(JSON.parse(res.data.replace("for (;;);", ""))))
  }
 break
-case 'ping':
+case 'test':
 case 'stats':{
 const used = process.memoryUsage()
 const cpus = os.cpus().map(cpu => {
